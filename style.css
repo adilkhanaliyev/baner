@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50vh;
+    position: relative;
+}
+#arxafon{
+    position: absolute;
+    background-image: url(img/arxafon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 75vh;
+}
+#logo{
+    position: absolute;
+    left: 50%;
+    top: -400px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/logo.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    transform: translate(-50%,0);
+    animation-name: logo;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes logo {
+    from {top: -400px;}
+    to {top: 130px;}
+  }
+  #yazi1{
+      position: absolute;
+      top: 50px;
+      left: -400px;
+      color: cadetblue;
+      font-family: 'Oswald', sans-serif;
+      font-size: 25px;
+      line-height: 15px;
+      font-weight: bold;
+      animation-name: yazi1;
+      animation-duration: 2.5s;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+  }
+  @keyframes yazi1 {
+    from {left: -400px;}
+    to {left: 20px;}
+  }
+  #yazi2{
+    position: absolute;
+    top: 90px;
+    left: -750px;
+    color: cadetblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    line-height: 15px;
+    font-weight: bold;
+    animation-name: yazi2;
+    animation-duration: 3s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes yazi2 {
+    from {left: -750px;}
+    to {left: 10px;}
+  }
+#yazi3{
+    position: absolute;
+    top: 120px;
+    left: -400px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    animation-name: yazi3;
+    animation-duration: 3s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes yazi3 {
+    from {left: -400px;}
+    to {left: 60px;}
+  }
+#yazi4{
+    position: absolute;
+    top: 220px;
+    left: -400px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 150px;
+    animation-name: yazi4;
+    animation-duration: 3s;
+    animation-delay: 8.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes yazi4 {
+    from {left: -400px;}
+    to {left: 80px;}
+  }
+  #yazi5{
+    position: absolute;
+    top: 350px;
+    left: -400px;
+    color: cadetblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    animation-name: yazi5;
+    animation-duration: 3s;
+    animation-delay: 10.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes yazi5 {
+    from {left: -400px;}
+    to {left: 20px;}
+  }
+  button{
+    position: absolute;
+    top: 400px;
+    left: -400px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    animation-name: yazi5;
+    animation-duration: 3s;
+    animation-delay: 10.5s;
+    animation-fill-mode: forwards;
+    width: 200px;
+    height: 50px;
+    background-color: cadetblue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+  }
+  button:hover{
+      background-color: white;
+      color: cadetblue;
+  }
+  @keyframes yazi5 {
+    from {left: -400px;}
+    to {left: 20px;}
+  }
+#sekil1{
+    width: 200px;
+    height: 100px;
+    background-image: url(img/js.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 390px;
+    top: -400px;
+    animation-name: sekil1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 6.5s;
+
+}
+@keyframes sekil1 {
+    from {top: -400px;}
+    to {top: 350px;}
+  }
+#sekil2{
+    width: 250px;
+    height: 250px;
+    background-image: url(img/angularlogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 360px;
+    top: -430px;
+    animation-name: sekil2;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+}
+@keyframes sekil2 {
+    from {top: -400px;}
+    to {top: 150px;}
+  }
+  #sekil4{
+    width: 250px;
+    height: 250px;
+    background-image: url(img/bootstrap.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 360px;
+    top: -430px;
+    animation-name: sekil4;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 8.5s;
+}
+@keyframes sekil4 {
+    from {top: -400px;}
+    to {top: 20px;}
+  }
+  #sekil3{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/php.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 200px;
+    top: -400px;
+    animation-name: sekil3;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+@keyframes sekil3 {
+    from {top: -400px;}
+    to {top: 320px;}
+  }
+
+
+span{
+    background-color: cadetblue;
+    color: white;
+}
